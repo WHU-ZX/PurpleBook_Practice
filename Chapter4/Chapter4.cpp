@@ -10,7 +10,7 @@ int main()
 {
     
     //Xiangqi();
-    Squares();
-
+    //Squares();
+    Othello();
     return 0;
 }

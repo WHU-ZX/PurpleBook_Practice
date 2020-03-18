@@ -2,5 +2,5 @@
 
 void Xiangqi();
 void Squares();
-
+void Othello();
 

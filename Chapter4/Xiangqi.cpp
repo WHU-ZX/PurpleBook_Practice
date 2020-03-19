@@ -36,14 +36,14 @@ void Xiangqi()
 			}
 		}
 		Piece::initGame(new Piece(bGx, bGy, TYPE::G, false), reds, redNum);
-		printf("Round #%d\n\t", GameRound);
+		//printf("Round #%d\n\t", GameRound);
 		if (Piece::redWin())
 		{
-			printf("Red succeed!");
+			printf("YES");
 		}
 		else
 		{
-			printf("Red has not succeed yet!");
+			printf("NO");
 		}
 		printf("\n");
 		scanf("%c", &_n);

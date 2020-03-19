@@ -148,7 +148,7 @@ struct Piece //棋子
 		if (this->theSameAs(piece)) return -1;
 		int dx = x - piece.x;
 		int dy = y - piece.y;
-		if (dx != 0 && dy != 0) return -1;//不共线，则返回-1
+		if (dx != 0 && dy != 0 || dx == 0 && dy == 0) return -1;//不共线，则返回-1
 		if (dx == 0)
 		{
 			int num = 0;

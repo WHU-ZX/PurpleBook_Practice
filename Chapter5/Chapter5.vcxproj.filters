@@ -15,27 +15,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Chapter4.cpp">
+    <ClCompile Include="Chapter5.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Xiangqi.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Squares.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Othello.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="CubePainting.cpp">
+    <ClCompile Include="AlignmentOfCode.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="PieceDef.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

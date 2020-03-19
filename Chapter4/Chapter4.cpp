@@ -11,6 +11,7 @@ int main()
     
     //Xiangqi();
     //Squares();
-    Othello();
+    //Othello();
+
     return 0;
 }

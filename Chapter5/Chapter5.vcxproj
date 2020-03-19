@@ -153,6 +153,7 @@
     <ClCompile Include="ThrowingCardsAway.cpp" />
     <ClCompile Include="UVa_10391.cpp" />
     <ClCompile Include="UVa_10763.cpp" />
+    <ClCompile Include="UVa_1595.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header.h" />

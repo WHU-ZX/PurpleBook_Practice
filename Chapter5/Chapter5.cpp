@@ -9,5 +9,7 @@ int main()
     //AlignmentOfCode();
     //Ducci();
     //ThrowingCardsAway();
-    UVa_10763();
+    //UVa_10763();
+    //UVa_10391();
+    UVa_1595();
 }

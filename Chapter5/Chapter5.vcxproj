@@ -151,6 +151,8 @@
     <ClCompile Include="Chapter5.cpp" />
     <ClCompile Include="Ducci.cpp" />
     <ClCompile Include="ThrowingCardsAway.cpp" />
+    <ClCompile Include="UVa_10391.cpp" />
+    <ClCompile Include="UVa_10763.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header.h" />

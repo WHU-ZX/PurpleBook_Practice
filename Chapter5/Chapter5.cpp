@@ -8,5 +8,6 @@ int main()
 {
     //AlignmentOfCode();
     //Ducci();
-    ThrowingCardsAway();
+    //ThrowingCardsAway();
+    UVa_10763();
 }

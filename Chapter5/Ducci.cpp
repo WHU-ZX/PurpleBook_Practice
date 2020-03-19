@@ -1,11 +1,11 @@
 #include <cstdio>
 #include <cmath>
 
-const int maxn = 15;
-int list[maxn] = { 0 };
-int maxStep = 1000;
-int checkStep = 50;
-int numberNum;
+static const int maxn = 15;
+static int list[maxn] = { 0 };
+static int maxStep = 1000;
+static int checkStep = 50;
+static int numberNum;
 
 bool allZero()
 {
@@ -28,8 +28,8 @@ void go()
 
 void Ducci()
 {
-	const char* input = "DucciInput.txt";
-	const char* output = "DucciOutput.txt";
+	const char* input = "datas/DucciInput.txt";
+	const char* output = "datas/DucciOutput.txt";
 	freopen(input, "r", stdin);
 	freopen(output, "w", stdout);
 	int gameNum;

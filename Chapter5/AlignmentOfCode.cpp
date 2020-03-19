@@ -5,15 +5,15 @@
 #include <vector>
 
 using namespace std;
-const int MAXN = 1005;
-vector<string> File[MAXN];
-int maxlen[200];
+static const int MAXN = 1005;
+static vector<string> File[MAXN];
+static int maxlen[200];
 
 
 void AlignmentOfCode()
 {
-	const char* input = "AlignmentOfCodeInput.txt";
-	const char* output = "AlignmentOfCodeOutput.txt";
+	const char* input = "datas/AlignmentOfCodeInput.txt";
+	const char* output = "datas/AlignmentOfCodeOutput.txt";
 	freopen(input, "r", stdin);
 	freopen(output, "w", stdout);
 

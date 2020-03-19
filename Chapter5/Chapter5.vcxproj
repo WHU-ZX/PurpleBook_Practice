@@ -150,6 +150,7 @@
     <ClCompile Include="AlignmentOfCode.cpp" />
     <ClCompile Include="Chapter5.cpp" />
     <ClCompile Include="Ducci.cpp" />
+    <ClCompile Include="ThrowingCardsAway.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header.h" />

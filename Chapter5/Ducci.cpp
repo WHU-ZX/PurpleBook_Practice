@@ -1,5 +1,4 @@
 #include <cstdio>
-#include <queue>
 #include <cmath>
 
 const int maxn = 15;

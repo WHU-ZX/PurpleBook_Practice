@@ -7,5 +7,6 @@
 int main()
 {
     //AlignmentOfCode();
-    Ducci();
+    //Ducci();
+    ThrowingCardsAway();
 }

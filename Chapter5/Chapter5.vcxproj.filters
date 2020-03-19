@@ -24,6 +24,9 @@
     <ClCompile Include="Ducci.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="ThrowingCardsAway.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header.h">

@@ -9,7 +9,7 @@
 int main()
 {
     
-    //Xiangqi();
+    Xiangqi();
     //Squares();
     //Othello();
 

@@ -291,14 +291,15 @@ void list(char term)//输出所有可行解法
 		{
 			if (board[i][j] == '-' && legal(i,j,flag))
 			{
-				findSol = true;
+				if (findSol) cout << ' ';//第一个不输出
 				cout << '(' << i << ',' << j << ')';
+				findSol = true;
 			}
 		}
 	}
 	if (!findSol)
 	{
-		cout << "No legal move";
+		cout << "No legal move.";
 	}
 	cout << endl;
 }
@@ -344,7 +345,8 @@ void Othello()
 					Switch();
 					int wN = 0, bN = 0;
 					getNum(wN, bN);
-					cout << "Black - " << bN << " White - " << wN << endl;
+					printf("Black - %2d White - %2d\n", bN, wN);
+					//cout << "Black - " << bN << " White - " << wN << endl;
 				}
 				cin >> OP;
 			}
@@ -352,6 +354,8 @@ void Othello()
 			{
 				print();
 			}
+			if(gameNum != totalGameNum)
+				cout << endl;
 		}
 	}
 }

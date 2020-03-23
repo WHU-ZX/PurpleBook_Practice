@@ -6,7 +6,7 @@ using namespace std;
 static int n;
 static queue<int> q;
 
-void clear() {
+static void clear() {
 	queue<int> empty;
 	swap(empty, q);
 }

@@ -5,3 +5,5 @@ void ThrowingCardsAway();
 int UVa_10763();
 int UVa_10391();
 int UVa_1595();
+int UVa_12100();
+int UVa_230();

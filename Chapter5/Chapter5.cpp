@@ -11,5 +11,7 @@ int main()
     //ThrowingCardsAway();
     //UVa_10763();
     //UVa_10391();
-    UVa_1595();
+    //UVa_1595();
+    //UVa_12100();
+    UVa_230();
 }

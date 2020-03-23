@@ -149,6 +149,8 @@
   <ItemGroup>
     <ClCompile Include="Chapter6.cpp" />
     <ClCompile Include="UVa_1599.cpp" />
+    <ClCompile Include="UVa_1600.cpp" />
+    <ClCompile Include="UVa_439.cpp" />
     <ClCompile Include="UVa_536.cpp" />
     <ClCompile Include="UVa_673.cpp" />
     <ClCompile Include="UVa_712.cpp" />

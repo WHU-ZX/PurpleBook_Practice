@@ -5,3 +5,4 @@ int UVa_712();
 int UVa_536();
 int UVa_439();
 int UVa_1600();
+int UVa_12166();

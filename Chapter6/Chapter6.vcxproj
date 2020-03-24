@@ -148,6 +148,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Chapter6.cpp" />
+    <ClCompile Include="UVa_12166.cpp" />
     <ClCompile Include="UVa_1599.cpp" />
     <ClCompile Include="UVa_1600.cpp" />
     <ClCompile Include="UVa_439.cpp" />

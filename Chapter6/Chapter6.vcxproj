@@ -155,6 +155,9 @@
     <ClCompile Include="UVa_536.cpp" />
     <ClCompile Include="UVa_673.cpp" />
     <ClCompile Include="UVa_712.cpp" />
+    <ClCompile Include="WF_UVa_246.cpp" />
+    <ClCompile Include="WF_UVa_804.cpp" />
+    <ClCompile Include="WF_UVa_806.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header.h" />

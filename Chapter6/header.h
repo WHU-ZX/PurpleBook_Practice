@@ -6,3 +6,6 @@ int UVa_536();
 int UVa_439();
 int UVa_1600();
 int UVa_12166();
+int WF_UVa_804();
+int WF_UVa_806();
+int WF_UVa_246();

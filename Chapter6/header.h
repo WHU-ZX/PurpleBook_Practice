@@ -1,4 +1,5 @@
 #pragma once
+int test();
 int UVa_1599();
 int UVa_673();
 int UVa_712();

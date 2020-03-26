@@ -14,6 +14,8 @@ int main()
     //UVa_1600();
     //UVa_12166();
     //WF_UVa_804();
-    WF_UVa_806();
-    //WF_UVa_246();
+    //WF_UVa_806();
+    WF_UVa_246();
+
+    //test();
 }

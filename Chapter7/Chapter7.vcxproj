@@ -102,7 +102,7 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_CRT_SECURE_NO_WARNINGS;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
@@ -148,8 +148,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Chapter7.cpp" />
+    <ClCompile Include="WF_UVa_208.cpp" />
     <ClCompile Include="UVa_1601.cpp" />
     <ClCompile Include="UVa_1602.cpp" />
+    <ClCompile Include="WF_UVa_225.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header.h" />

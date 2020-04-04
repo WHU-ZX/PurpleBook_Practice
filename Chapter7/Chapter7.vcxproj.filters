@@ -30,9 +30,18 @@
     <ClCompile Include="WF_UVa_208.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="WF_UVa_818.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa_690.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="normal_header.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

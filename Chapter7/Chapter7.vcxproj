@@ -148,13 +148,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Chapter7.cpp" />
+    <ClCompile Include="UVa_690.cpp" />
     <ClCompile Include="WF_UVa_208.cpp" />
     <ClCompile Include="UVa_1601.cpp" />
     <ClCompile Include="UVa_1602.cpp" />
+    <ClCompile Include="WF_UVa_818.cpp" />
     <ClCompile Include="WF_UVa_225.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header.h" />
+    <ClInclude Include="normal_header.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

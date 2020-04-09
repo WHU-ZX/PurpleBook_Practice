@@ -5,3 +5,5 @@ int WF_UVa_208();
 int WF_UVa_225();
 int WF_UVa_818();
 int UVa_690();
+int UVa_12113();
+int UVa_12558();

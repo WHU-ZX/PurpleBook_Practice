@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{776E9F6B-3EEB-4B2A-94A0-3453084CEA8C}</ProjectGuid>
+    <ProjectGuid>{A20117FF-803C-418A-AF24-0FA6A779CBA6}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Chapter7</RootNamespace>
+    <RootNamespace>Chapter8</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -88,7 +88,7 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>_DEBUG;_CRT_SECURE_NO_WARNINGS;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
@@ -102,7 +102,7 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;_CRT_SECURE_NO_WARNINGS;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
@@ -147,19 +147,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="UVa_12558.cpp" />
-    <ClCompile Include="Chapter7.cpp" />
-    <ClCompile Include="UVa_12113.cpp" />
-    <ClCompile Include="UVa_690.cpp" />
-    <ClCompile Include="WF_UVa_208.cpp" />
-    <ClCompile Include="UVa_1601.cpp" />
-    <ClCompile Include="UVa_1602.cpp" />
-    <ClCompile Include="WF_UVa_818.cpp" />
-    <ClCompile Include="WF_UVa_225.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="header.h" />
-    <ClInclude Include="normal_header.h" />
+    <ClCompile Include="Chapter8.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,6 +1,7 @@
 #include <cstdio>
 #include <iostream>
 #include <algorithm>
+#pragma warning(disable:4996)
 using namespace std;
 
 const static int MAXN = 5000;
@@ -20,11 +21,61 @@ static bool cmpId(Rect r1, Rect r2)
 }
 static bool cmpX(Rect r1, Rect r2)
 {
-	return r1.xr < r2.xr;
+	if (r1.xr != r2.xr)
+		return r1.xr < r2.xr;
+	else
+		return r1.xl < r2.xl;
 }
 static bool cmpY(Rect r1, Rect r2)
 {
-	return r1.yr < r2.yr;
+	if (r1.yr != r2.yr)
+		return r1.yr < r2.yr;
+	else
+		return r1.yl < r2.yl;
+}
+
+static bool dealX()//处理X方向
+{
+	memset(vis, false, sizeof vis);
+	sort(rects, rects + n, cmpX); // 按区间右值升序排列
+	for (int i = 0; i < n; ++i)
+	{
+		int right = rects[i].xr;
+		int left = rects[i].xl;
+		while (left <= right && vis[left])
+		{
+			++left;
+		}
+		if (left > right)
+		{
+			return false;
+		}
+		rects[i].x = left;
+		vis[left] = true;
+	}
+	return true;
+}
+
+static bool dealY()//处理Y方向
+{
+	memset(vis, false, sizeof vis);
+	sort(rects, rects + n, cmpY); // 按区间右值升序排列
+	for (int i = 0; i < n; ++i)
+	{
+		int right = rects[i].yr;
+		int left = rects[i].yl;
+		while (left <= right && vis[left])
+		{
+			++left;
+		}
+		if (left > right)
+		{
+			return false;
+		}
+		rects[i].y = left;
+		vis[left] = true;
+	}
+	return true;
 }
 
 int UVa_11134()
@@ -40,15 +91,15 @@ int UVa_11134()
 			rects[i].id = i + 1;
 			cin >> rects[i].xl >> rects[i].yl >> rects[i].xr >> rects[i].yr;
 		}
-		//先处理X方向
-		sort(rects, rects + n, cmpX); // 按区间右值升序排列
-		for (int i = 0; i < n; ++i)
+		
+		if (dealX() && dealY())
 		{
-			cout << rects[0].id;
+			sort(rects, rects + n, cmpId); // 按id升序排列
+			for (int i = 0; i < n; ++i)
+				cout << rects[i].x << ' ' << rects[i].y << endl;
 		}
-
-		//再处理Y方向
-
+		else
+			cout << "IMPOSSIBLE" << endl;
 
 	}
 	return 0;

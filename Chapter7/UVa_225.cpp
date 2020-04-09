@@ -68,7 +68,7 @@ static void solve(int x, int y)
 	{
 		for (int i = 0; i < ansIdx; ++i)
 			printf("%c", ans[i]);
-		printf("%c\n",dirs[lastDir]);
+		printf("%c\n", dirs[lastDir]);
 		++ansCnt;
 	}
 	else

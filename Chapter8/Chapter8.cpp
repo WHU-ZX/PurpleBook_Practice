@@ -7,7 +7,7 @@ int main()
 {
     UVa_11134();
 
-
+    return 0;
 }
 
 

@@ -1,4 +1,4 @@
-#include <cstdio>
+ï»¿#include <cstdio>
 #include <iostream>
 #include <queue>
 using namespace std;
@@ -41,10 +41,10 @@ static void print_path(int cur)
 {
 	if (cur == streetcorner)
 	{
-		//Êä³ö
+		//ÃŠÃ¤Â³Ã¶
 		for (int i = 0; i < pCnt; ++i)
-			printf("%d ",P[i]);
-		printf("%d\n",streetcorner);
+			printf("%d ", P[i]);
+		printf("%d\n", streetcorner);
 		++cnt;
 	}
 	else
@@ -69,7 +69,7 @@ int WF_UVa_208()
 	const char* input = "inputs/WF_208.txt";
 	//const char* output = "outputs/WF_208.txt";
 	freopen(input, "r", stdin);
-	
+
 	while (scanf("%d\n", &streetcorner) != EOF)
 	{
 		init();
@@ -83,7 +83,7 @@ int WF_UVa_208()
 			memset(vis, false, sizeof vis);
 			pCnt = 0;
 			print_path(1);
-			
+
 		}
 		printf("There are %d routes from the firestation to streetcorner %d.\n", cnt, streetcorner);
 		++gameNum;

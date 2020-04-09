@@ -18,5 +18,13 @@
     <ClCompile Include="Chapter8.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="UVa_11134.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="header.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

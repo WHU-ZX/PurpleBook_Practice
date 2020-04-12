@@ -5,8 +5,9 @@
 #include "header.h"
 int main()
 {
-    UVa_11134();
-
+    //UVa_11134();
+    //UVa_1149();
+    UVa_1610();
     return 0;
 }
 

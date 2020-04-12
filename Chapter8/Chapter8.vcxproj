@@ -147,6 +147,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="UVa_11491.cpp" />
+    <ClCompile Include="UVa_12545.cpp" />
     <ClCompile Include="UVa_1610.cpp" />
     <ClCompile Include="Chapter8.cpp" />
     <ClCompile Include="UVa_11134.cpp" />

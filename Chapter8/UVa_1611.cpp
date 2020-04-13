@@ -1,7 +1,6 @@
 #include <cstdio>
 #include <iostream>
 #include <algorithm>
-#include <vector>
 #pragma warning(disable:4996)
 using namespace std;
 const static int MAXN = 10001, MAX_OP_NUM = 531441;

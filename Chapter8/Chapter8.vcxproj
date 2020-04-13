@@ -155,6 +155,7 @@
     <ClCompile Include="UVa_11134.cpp" />
     <ClCompile Include="UVa_1149.cpp" />
     <ClCompile Include="UVa_1611.cpp" />
+    <ClCompile Include="UVa_1612.cpp" />
     <ClCompile Include="UVa_177.cpp" />
   </ItemGroup>
   <ItemGroup>

@@ -4,7 +4,7 @@
 #pragma warning(disable:4996)
 using namespace std;
 const static int MAXN = 100000;
-struct Node
+static struct Node
 {
 	int idx;
 	int ans;

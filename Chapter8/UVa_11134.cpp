@@ -6,7 +6,7 @@ using namespace std;
 
 const static int MAXN = 5000;
 static int n;
-struct Rect
+static struct Rect
 {
 	int id = 0;
 	int xl = 0, yl = 0;

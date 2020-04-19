@@ -14,3 +14,5 @@ int UVa_1615();
 int UVa_1153();
 int UVa_10570();
 int UVa_1616();
+int UVa_1617();
+int UVa_1618();

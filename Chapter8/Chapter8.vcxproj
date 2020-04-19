@@ -162,6 +162,8 @@
     <ClCompile Include="UVa_1614.cpp" />
     <ClCompile Include="UVa_1615.cpp" />
     <ClCompile Include="UVa_1616.cpp" />
+    <ClCompile Include="UVa_1617.cpp" />
+    <ClCompile Include="UVa_1618.cpp" />
     <ClCompile Include="UVa_177.cpp" />
   </ItemGroup>
   <ItemGroup>

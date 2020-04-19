@@ -1,28 +1,12 @@
 #include <cstdio>
 #include <iostream>
 #include <algorithm>
-//#include <map>
 #pragma warning(disable:4996)
 using namespace std;
 const static int MAXN = 500;
 static int n, offset;
 static int numbers[MAXN + 1], rMap[MAXN + 1];
 static bool vis[MAXN + 1];
-//static map<int, int> M;
-
-static int find1(int number)
-{
-	for (int i = 0; i < n; ++i)
-		if ((number + offset) % n == numbers[i]) return i;
-	return -1;
-}
-
-static int find2(int number)
-{
-	for (int i = 0; i < n; ++i)
-		if ((number + offset + numbers[i]) % n == n - 1) return i;
-	return -1;
-}
 
 static int getDirectedCurcleNum()
 {

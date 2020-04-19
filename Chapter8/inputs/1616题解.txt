@@ -1,0 +1,10 @@
+参考博客：
+https://www.freesion.com/article/7641220042/
+https://www.cnblogs.com/jerryRey/p/4716840.html
+
+
+我的博客：
+https://blog.csdn.net/qq_42584666/article/details/105620044
+
+至于小数转分数，如何确定分母是处于1-n之间的？
+	因为给出的区间都是整数区间，至少长度为1，当n个区间重叠的时候为特殊情况，此时每个子区间都只能取所有区间长度的1/n

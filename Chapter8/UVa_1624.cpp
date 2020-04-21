@@ -52,7 +52,7 @@ int UVa_1624()//参考：https://blog.csdn.net/qq_36973725/article/details/88050611
 		{
 			int notFind = true;
 			while (!layer[k])++k;
-			for (int i = nodes[k].right; i != k && notFind; i = nodes[i].right)//为什么i从k开始就不行?
+			for (int i = nodes[k].right; i != k && notFind; i = nodes[i].right)//为什么i从k开始就不行? --> 如果i从k开始，第一个就不满足了
 			{
 				u = i; v = nodes[i].right;
 				if (layer[u] == layer[v] && (nodes[nodes[u].face].right == nodes[v].face ||

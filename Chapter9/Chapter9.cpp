@@ -8,5 +8,6 @@ int main()
 {
     //Q2();
     //UVa_12099();
-    UVa_12099_optimized();
+    //UVa_12099_optimized();
+    UVa_10285();
 }

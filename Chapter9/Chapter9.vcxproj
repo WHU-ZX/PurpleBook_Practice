@@ -149,6 +149,7 @@
   <ItemGroup>
     <ClCompile Include="Chapter9.cpp" />
     <ClCompile Include="SLH_Competetion.cpp" />
+    <ClCompile Include="UVa_10285.cpp" />
     <ClCompile Include="UVa_12099.cpp" />
     <ClCompile Include="UVa_12099_optimized.cpp" />
   </ItemGroup>

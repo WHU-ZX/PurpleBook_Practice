@@ -153,6 +153,7 @@
     <ClCompile Include="UVa_10285.cpp" />
     <ClCompile Include="UVa_12099.cpp" />
     <ClCompile Include="UVa_12099_optimized.cpp" />
+    <ClCompile Include="UVa_1629.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header.h" />

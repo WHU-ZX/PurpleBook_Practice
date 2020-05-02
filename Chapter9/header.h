@@ -5,3 +5,8 @@ int UVa_12099_optimized();
 int UVa_10285();
 int UVa_10118();
 int UVa_1629();
+int UVa_10723();
+int UVa_1631();
+int UVa_1632();
+int UVa_10163();
+int test();

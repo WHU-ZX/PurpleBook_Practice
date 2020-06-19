@@ -10,3 +10,4 @@ int UVa_1631();
 int UVa_1632();
 int UVa_10163();
 int test();
+int UVa_10641();

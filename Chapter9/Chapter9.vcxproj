@@ -153,6 +153,7 @@
     <ClCompile Include="UVa_10118.cpp" />
     <ClCompile Include="UVa_10163.cpp" />
     <ClCompile Include="UVa_10285.cpp" />
+    <ClCompile Include="UVa_10641.cpp" />
     <ClCompile Include="UVa_10723.cpp" />
     <ClCompile Include="UVa_12099.cpp" />
     <ClCompile Include="UVa_12099_optimized.cpp" />

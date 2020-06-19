@@ -27,6 +27,12 @@
     <ClCompile Include="UVa_1643.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="UVa_1644.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa_1213.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header.h">
